@@ -1,0 +1,485 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>A Personal Point of View</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body class="full-wrapper">
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Start -->
+    <div class="header-area ">
+        <div class="main-header header-sticky">
+            <div class="container-fluid">
+                <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                    <div class="header-left d-flex align-items-center">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="index.html">Home</a></li> 
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="Profolio.html">Profolio</a>
+                                        <ul class="submenu">
+                                            <li><a href="Profolio.html">Profolio</a></li>
+                                            <li><a href="E-Commerce.html">E-Commerce</a></li>
+                                            <li><a href="Assistant_Stylist.html">Assistant Stylist</a></li>
+                                            <li><a href="Commercail.html">Commercail</a></li>
+                                            <li><a href="Celebrity_Styling.html">Celebrity Styling</a></li>
+                                            <li><a href="Projects.html">Projects</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>   
+                    </div>
+                    <div class="header-right1 d-flex align-items-center">
+                        <!-- Social -->
+                        <div class="header-social d-none d-md-block">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                        <!-- Search Box -->
+                        <div class="search d-none d-md-block">
+                            <ul class="d-flex align-items-center">
+                                <li class="mr-15">
+                                    <div class="nav-search search-switch">
+                                        <i class="ti-search"></i>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+<!-- header end -->
+    <!--Gallery Start-->
+    <main>
+        
+
+           <style>
+            body {
+                background-color: #434c50;
+                min-height: 100vh;
+                font: normal 16px sans-serif;
+                padding: 40px 0;
+            }
+
+            .container.gallery-container {
+                background-color: #fff;
+                color: #35373a;
+                min-height: 100vh;
+                padding: 30px 50px;
+            }
+
+            .gallery-container h1 {
+                text-align: center;
+                margin-top: 50px;
+                font-family: 'Droid Sans', sans-serif;
+                font-weight: bold;
+            }
+
+            .gallery-container p.page-description {
+                text-align: center;
+                margin: 25px auto;
+                font-size: 18px;
+                color: #999;
+            }
+
+            .tz-gallery {
+                padding: 40px;
+            }
+
+            /* Override bootstrap column paddings */
+            .tz-gallery .row > div {
+                padding: 2px;
+            }
+
+            .tz-gallery .lightbox img {
+                width: 100%;
+                border-radius: 0;
+                position: relative;
+            }
+
+            .tz-gallery .lightbox:before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -13px;
+                margin-left: -13px;
+                opacity: 0;
+                color: #fff;
+                font-size: 26px;
+                font-family: 'Glyphicons Halflings';
+                content: '\e003';
+                pointer-events: none;
+                z-index: 9000;
+                transition: 0.4s;
+            }
+
+
+            .tz-gallery .lightbox:after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                background-color: rgba(122, 122, 122, 0.7);
+                content: '';
+                transition: 0.4s;
+            }
+
+            .tz-gallery .lightbox:hover:after,
+            .tz-gallery .lightbox:hover:before {
+                opacity: 1;
+            }
+
+            .baguetteBox-button {
+                background-color: transparent !important;
+            }
+
+            @media(max-width: 768px) {
+                body {
+                    padding: 0;
+                }
+            }
+           </style>
+                        
+            <html>
+            <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+                <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+            
+                
+            </head>
+            <body>
+
+            <div class="container gallery-container">
+
+                
+                <div class="tz-gallery">
+
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                            </a>
+                        </div> 
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                            </a>
+                        </div> 
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                            </a>
+                        </div> 
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+            <script>
+                baguetteBox.run('.tz-gallery');
+            </script>
+            </body>
+            </html>
+        
+       
+          <script>
+            /* gallery */
+            
+                $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+                });
+          </script>
+          <!--Code Gallery-->
+    </main>
+    <!--End-->
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container-fluid ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+                     <div class="single-footer-caption mb-50">
+                       <div class="single-footer-caption mb-30">
+                          <!-- logo -->
+                          <div class="footer-logo mb-35">
+                           <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                       </div>
+                       <div class="footer-tittle">
+                           <div class="footer-pera">
+                               <p>Filler Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                           </div>
+                       </div>
+                       <!-- social -->
+                       <div class="footer-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                    <h4>Profolio Category</h4>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                    <h4>Partners</h4>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+            <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                    <h4>Get in touch</h4>
+                    <ul>
+                        <li><a href="#">(89) 982-278 356</a></li>
+                        <li><a href="#">demo@gmail.com</a></li>
+                        <li><a href="#">2917 Rainier Ave S,  Suite#104- 98144, Seattle</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- footer-bottom area -->
+<div class="footer-bottom-area">
+    <div class="container">
+        <div class="footer-border">
+           <div class="row d-flex align-items-center">
+               <div class="col-xl-12 ">
+                   <div class="footer-copy-right text-center">
+                       <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | A Personal Point of View <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://UrbanLeague.com" target="_blank">Urban League</a>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Footer End-->
+</footer>
+<!--? Search model Begin -->
+<div class="search-model-box">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-btn">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Searching key.....">
+        </form>
+    </div>
+</div>
+<!-- Search model end -->
+<!-- Scroll Up -->
+<div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+
+<!-- JS here -->
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- Slick-slider , Owl-Carousel ,slick-nav -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<script src="./assets/js/jquery.slicknav.min.js"></script>
+
+<!-- One Page, Animated-HeadLin, Date Picker -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="./assets/js/gijgo.min.js"></script>
+
+<!-- Nice-select, sticky,Progress -->
+<script src="./assets/js/jquery.nice-select.min.js"></script>
+<script src="./assets/js/jquery.sticky.js"></script>
+<script src="./assets/js/jquery.barfiller.js"></script>
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="./assets/js/jquery.counterup.min.js"></script>
+<script src="./assets/js/waypoints.min.js"></script>
+<script src="./assets/js/jquery.countdown.min.js"></script>
+<script src="./assets/js/hover-direction-snake.min.js"></script>
+
+<!-- contact js -->
+<script src="./assets/js/contact.js"></script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->	
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
